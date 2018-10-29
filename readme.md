@@ -1,11 +1,11 @@
 # Laravel Vue App
 
-Bu projede Laravel ile Vue.js altyapılarının beraber nasıl kullanılacağı örnek bir uygulama üzerinde gösterilmiştir.
+This project illustrates how to use Laravel with the Vue.js infrastructure together on a example application.
 
-## Kurulum
+## Installation
 
-- **.env.example** dosyasının adını **.env** olarak değiştiriniz.
-- `php artisan key:generate` komutu ile **.env** dosyası içerisindeki **APP_KEY** değerini ayarlayın.
-- **.env** dosyası içerisindeki veritabanı ayarlarını kendinize göre değiştirin.
-- `npm run dev` komutu ile Sass ve JavaScript dosyalarınızı derleyebilirsiniz.
-- `php artisan serve` komutu ile Laravel projesini Development Server üzerinde çalıştırabilirsiniz.
+- Rename **.env.example** file to **.env**.
+- Set the value of **APP_KEY** within the **.env** file with the `php artisan key:generate` command.
+- Change the database settings in the **.env** file according to your project database.
+- With the `npm run dev` or `npm run watch` command, you can compile your Sass and JavaScript files.
+- With the `php artisan serve` command, you can run the Laravel project on the Development Server.
